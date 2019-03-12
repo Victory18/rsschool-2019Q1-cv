@@ -1,0 +1,161 @@
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center; 
+    color: black;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 51px;
+    letter-spacing: 1px; 
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    color: black;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    margin-left: 50px;
+    color: black;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-left: 70px;
+    color: black;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+header {
+    width: 1024px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    background:#2E8B57;  
+}
+
+body {
+    width: 1024px;
+    height: 1480px;
+    margin-top: 00px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-size: 1024px 1555px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-origin: content-box;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;   
+    color: black;
+}
+
+footer {
+    height: 20px;
+    background-color: #F89609;
+    margin-top: 37px;
+    margin-bottom: 0;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;   
+    color: black;
+    text-align: right;
+    padding-right: 10px; 
+}
+
+table {
+    width: 900px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cv-header{
+    margin-bottom: 85px;
+    position: relative;
+}
+
+.top-holder {
+    width: 100%;
+    margin-bottom: 30px;
+    background: #fff;
+    position: relative;
+    transition: height 1s ease;
+    height: 300px;
+}
+
+.top-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: url(images/autmn.png);
+    background-position: 50%;
+    height: 100%;  
+}
+
+.image {
+    background-image: url(images/raccooccoon.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 50%;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.3);
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    border-radius: 120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -65px;
+    z-index: 1;
+}
+
+.qualification {
+    display: block;
+    text-align: center;
+}
+
+.contacts {
+    display: block;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+}
+
+.phone {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+.orange {
+    color: #F89609 !important;
+    margin: 0 5px;
+}
+
+.line {
+    margin-left: 40px;
+    border: none;
+    background-color: #F89609;
+    color: #F89609;
+    height: 2px;
+    width: 944px;
+}
+
