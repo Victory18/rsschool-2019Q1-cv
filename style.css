@@ -1,9 +1,14 @@
 h1 {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 50px;
+    text-align: center; 
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 51px;
+    letter-spacing: 1px; 
 }
 
 h2 {
@@ -11,13 +16,13 @@ h2 {
     margin-bottom: 0;
     margin-left: 50px;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
 }
 
 ul {
     margin-left: 50px;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -29,7 +34,7 @@ li {
 p {
     margin-left: 70px;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -51,11 +56,15 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
-    background: url(images/flowers2.png);
     background-size: 1024px 1555px;
     background-position: center;
     background-repeat: no-repeat; 
     background-origin: content-box;
+    font-family: "Benton Sans Comp Book", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;   
+    color: black;
 }
 
 table {
@@ -63,53 +72,74 @@ table {
     margin-right: auto;
     margin-left: auto;
 }
-.contacts {
-    position: absolute;
-    width: 350px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 45px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    padding-right: 50px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
+
+.cv-header{
+    margin-bottom: 85px;
+    position: relative;
 }
 
-.contacts-style {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+.top-holder {
+    width: 100%;
+    margin-bottom: 30px;
+    background: #fff;
+    position: relative;
+    transition: height 1s ease;
+    height: 300px;
 }
 
-.photo {
-    width: 350px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    padding-right: 50px;
-}
-    
-.photo-style {
-    background-image: url(images/raccooccoon.png);
-    background-position: 50%;
+.top-image {
     background-size: cover;
-    width: 300px;
-    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: url(images/autmn.png);
+    height: 100%;  
+}
+
+.image {
+    background-image: url(images/raccooccoon.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: 50%;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.3);
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    border-radius: 120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -65px;
+    z-index: 1;
+}
+
+.qualification {
+    display: block;
+    text-align: center;
+}
+
+.contacts {
+    display: block;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+}
+
+.phone {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+.orange {
+    color: #F89609 !important;
+    margin: 0 5px;
 }
 
 .line {
     margin-left: 40px;
     border: none;
-    background-color:#2E8B57;
-    color: #2E8B57;
+    background-color: #F89609;
+    color: #F89609;
     height: 2px;
     width: 944px;
 }
