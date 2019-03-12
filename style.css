@@ -92,6 +92,7 @@ table {
     background-position: center center;
     background-repeat: no-repeat;
     background: url(images/autmn.png);
+    background-position: 50%;
     height: 100%;  
 }
 
